@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+html.no-js(lang="en")
+	head
+		meta(charset="utf-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		
+		title Hotel California
+		
+		link(rel="stylesheet", type="text/css", href="css/foundation.min.css")
+		link(rel="stylesheet", type="text/css", href="css/custom.css")
+		
+	body
+		script(type="text/javascript", href="js/foundation.min.js")
+		script(type="text/javascript", href="app.js")
+
+		<!-- Facebook login support -->
+		#fb-root
+		script(type="text/javascript").
+			(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+
+		<!-- FB perms: public_profile, user_friends, email -->
+		header.header
+			h1.main-header(style="font-variant: small-caps;letter-spacing: 0.5em;") HOTEL CALIFORNIA
+			h2(style="font-variant: small-caps;letter-spacing: 0.5em;color:#777;font-size: 1.5em;") BURNING MAN 2016
+			<!-- Facebook login button -->
+			.fb-login-button(data-max-rows="1", data-size="xlarge", data-show-faces="true", data-auto-logout-link="false")
+			ul.header-subnav
+				li
+					a.is-active(href="#about") About
+				li
+					a(href="#history") History
+				li
+					a(href="#art") Art
+				hr
+		
+		.row.bg
+			a#about
+			.large-6.medium-12.small-12.columns
+				h2 About Us
+				p We are Hotel California, a group of burners from the Bay Area.  Our camp is a community of 60 new and returning members coming from all over the world, and our infrastructure includes a full kitchen, a communal dome, a workshop dome, a large shade structure covering tents, a shower, first aid supplies, a kickass sound system, a climbing wall, a custom bar, and a very, very large fire pit. We have a large-ish storage space on Treasure Island, and two 20’ shipping containers to transport our camp elements, our art piece and firewood. Come say hi to us in 2016 at 7:15 and Guild.
+
+				p We provide a safe, responsible and interactive playground to all of our members. We expect of all of our members #[strong radical involvement] – in other words contribute to all camp chores and activities (camp set up and tear down, kitchen duties, bar duties, ice runs) and keep the camp free of MOOP. Don’t worry, you will have plenty of time to explore the Playa, party, make friends, attend workshops, go on adventures, or anything your little heart desires. We also ask that you stay the whole duration of the burn – arrive on Monday at the latest, and stay as long as you can, preferably until the man burns. We are not a turn-key camp, or plug-and-play camp, and we’re not your Mom.
+
+				p If you would like to join us this year, #[a(href="https://www.facebook.com/groups/144960355700052/") apply here]. Spots are limited and we are fully booked every year before departure!
+
+			.large-6.medium-12.small-12.columns
+				img(src="img/wedding-bikes.jpeg")
+				small Much of the camp on their way to a camp wedding ceremony, BM 2015.
+
+		.row.bg
+			.large-12.medium-12.small-12.columns
+				hr
+		.row.bg
+			.large-6.medium-12.small-12.columns
+				img(src="img/pink-car.jpeg")
+				small A pink fuzzy bicycle car several camp members borrowed for a joy-ride, BM 2014.
+			
+			a#history
+			.large-6.medium-12.small-12.columns
+				h2 History
+				p At Burning Man 2016 we will take on our new identity, #[em Hotel California] - in past years we have been the #[em Church of the Fifth Element] (2015), #[em Home Sweet Dome] (2014) and before that, #[em Burners on the Fence] (2013) and #[em Camp Bikini Bottoms] (earlier). Our community is dedicated to making our camp the most hospitable piece of land on the Playa, offering first-rate amenities to all visitors. 
+
+				p Everyone is #[strong radically welcome] to Hotel California. Members in the past years came from everywhere in the US, Germany, France, India, Australia... Members in the past have been super cool, super weird, sometimes assholes, most of the time really awesome – the point is, we don’t discriminate. We welcome strangers and newbies – anyone can play with us.
+				
+		.row.bg
+			.large-12.medium-12.small-12.columns
+				hr
+
+		.row.bg
+			a#art
+			.large-6.medium-12.small-12.columns
+				h2 Art
+				p Come check out our art installation, an eight-foot-wide fire pit made out of stainless steel -  the biggest fire pit on the playa.
+
+				p We built the fire pit last year and used it every day during the burn. We used #[strong TONS] of wood, and many people enjoyed the beauty of the flames for hours at a time. We want to do it again this year! However, due to the insane amount of heat applied to the structure, we have some work to do: the base (holding the wood at the bottom of the firepit) needs to be rebuilt; we also need to repair many of the welds holding the panels together.
+
+				p If you feel generous and would like to contribute to our project, please use the donate button below and give what you can!
+
+			.large-6.medium-12.small-12.columns
+				img(src="img/fire-sculpture.jpeg")
+				small Our eight-foot diameter fire sculpture.
+
+		.row.bg
+			.large-12.medium-12.small-12.columns
+				hr
+				small "Hotel California" is a fiscally sponsored project of MarinLink, a California non profit corporation exempt from federal tax under section 501(c)(3) of the Internal Revenue Service Code. #20-0879422
